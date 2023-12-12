@@ -484,8 +484,8 @@ def main():
     # plot to Compare HAQ_index to dengue incidence
     plotCompare_HAQ_index_dengue_incidence(master_Philippines)
     # plot Correlation matrix
-    
-    
+    plotHeatMapCorrelationmatrix(master_Philippines)
+
 
 
 if __name__ == "__main__":
